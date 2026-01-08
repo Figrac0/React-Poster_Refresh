@@ -1,0 +1,43 @@
+.post {
+    background: var(--card);
+    border-radius: 12px;
+    padding: 1.2rem;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(124, 77, 255, 0.2);
+    animation: fadeIn 0.5s ease-out;
+}
+.post:hover {
+    background: var(--card-hover);
+    transform: translateY(-3px);
+    border-color: var(--primary);
+    box-shadow: 0 8px 20px rgba(124, 77, 255, 0.2);
+}
+.post a {
+    text-decoration: none;
+    display: block;
+}
+.author {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--accent);
+    margin: 0 0 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+.text {
+    white-space: pre-wrap;
+    font-size: 1rem;
+    margin: 0;
+    color: var(--light);
+    line-height: 1.4;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

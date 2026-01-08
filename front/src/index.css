@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    min-height: 100vh;
+    font-family: "Segoe UI", Inter, -apple-system, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    background: linear-gradient(135deg, #1a0f3d 0%, #2d1b69 100%);
+    color: #f0e9ff;
+    -webkit-font-smoothing: antialiased;
+}
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+/* Цветовая палитра */
+:root {
+    --primary: #7c4dff;
+    --secondary: #ff9800;
+    --accent: #ffeb3b;
+    --dark: #1a0f3d;
+    --light: #f0e9ff;
+    --card: #2d1b69;
+    --card-hover: #3a2480;
+}

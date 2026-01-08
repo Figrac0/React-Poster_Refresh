@@ -1,0 +1,35 @@
+.details {
+    padding: 1.5rem;
+    max-width: 30rem;
+    background: var(--card);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 235, 59, 0.1);
+}
+.author {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--accent);
+    margin: 0 0 0.5rem;
+    text-transform: uppercase;
+}
+.text {
+    white-space: pre-wrap;
+    font-size: 1.1rem;
+    margin: 0;
+    color: var(--light);
+    line-height: 1.5;
+}
+.btn {
+    display: inline-block;
+    padding: 0.6rem 1.2rem;
+    background: var(--primary);
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.btn:hover {
+    background: #6b3fe0;
+    transform: translateY(-2px);
+}
